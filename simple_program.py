@@ -1,7 +1,6 @@
 print("Welcome to Lab Exercise")
 
- name = input("what is your name")
+name = input("what is your name")
+age = input("How old are you?")
 
- age = input("How old are you?")
-
-    print("Your name is " + name "and you are " + age "years old") 
+print("Your name is", name, "and you are", age, "years old")
